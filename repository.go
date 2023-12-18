@@ -42,7 +42,7 @@ type Repository struct {
 
 	UpdatedOn time.Time `json:"updated_on,omitempty"`
 
-	Size int32 `json:"size,omitempty"`
+	Size int64 `json:"size,omitempty"`
 
 	Language string `json:"language,omitempty"`
 
